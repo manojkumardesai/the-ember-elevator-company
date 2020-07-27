@@ -7,6 +7,8 @@ export default class LiftsViewComponent extends Component {
         'lift-two': 0,
         'lift-three': 0
     };
+
+    floors = [4, 3, 2, 1]
     @action
     goUp(floor) {
         const [nearestLift] = this.getNearestLift(floor);;
