@@ -40,7 +40,6 @@ export default class LiftsViewComponent extends Component {
         const currentClass = rectElement.getAttribute("class");
         rectElement.classList.remove(`${currentClass}`);
         rectElement.classList.add('zeroUp');
-        console.log(nearestLift);
         this.liftTrack[nearestLift] = 0;
     }
 
