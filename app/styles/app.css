@@ -1,0 +1,58 @@
+#lift-1, #lift-2, #lift-3 {
+    height: 100px;
+    width: 10%;
+    background: rgba(94, 164, 221, 0.945);
+    margin: 50px auto;
+    border-radius: 5px;
+    position: relative;
+    bottom: -690px;
+}
+
+.zeroUp {
+    transform: translateY(0px);
+    transition: all 1.5s ease;
+}
+.upAnimation1 {
+    transform: translateY(-110px);
+    transition: all 1.5s ease;
+}
+.upAnimation2 {
+    transform: translateY(-220px);
+    transition: all 1.5s ease;
+}
+.upAnimation3 {
+    transform: translateY(-330px);
+    transition: all 1.5s ease;
+}
+.upAnimation4 {
+    transform: translateY(-440px);
+    transition: all 1.5s ease;
+}
+.downAnimation1 {
+    transform: translateY(-110px);
+    transition: all 1.5s ease;
+}
+.downAnimation2 {
+    transform: translateY(-220px);
+    transition: all 1.5s ease;
+}
+.downAnimation3 {
+    transform: translateY(-330px);
+    transition: all 1.5s ease;
+}
+.downAnimation4 {
+    transform: translateY(-440px);
+    transition: all 1.5s ease;
+}
+.downAnimation5 {
+    transform: translateY(-540px);
+    transition: all 1.5s ease;
+}
+.btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-0 {
+    background-color: yellow;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.lifts {
+    margin-left: 200px;
+}
