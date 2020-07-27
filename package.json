@@ -10,7 +10,7 @@
         "doc": "doc",
         "test": "tests"
     },
-    "homepage": "https://manojkumardesai.github.io/the-ember-elevator-company",
+    "homepage": "http://manojkumardesai.github.io/the-ember-elevator-company",
     "scripts": {
         "build": "ember build --environment=production",
         "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
@@ -32,6 +32,7 @@
         "ember-cli-app-version": "^3.2.0",
         "ember-cli-babel": "^7.20.5",
         "ember-cli-dependency-checker": "^3.2.0",
+        "ember-cli-github-pages": "^0.2.2",
         "ember-cli-htmlbars": "^5.1.2",
         "ember-cli-inject-live-reload": "^2.0.2",
         "ember-cli-sri": "^2.1.1",
@@ -49,10 +50,10 @@
         "eslint": "^7.1.0",
         "eslint-plugin-ember": "^8.6.0",
         "eslint-plugin-node": "^11.1.0",
+        "gh-pages": "^3.1.0",
         "loader.js": "^4.7.0",
         "npm-run-all": "^4.1.5",
-        "qunit-dom": "^1.2.0",
-        "gh-pages": "^3.1.0"
+        "qunit-dom": "^1.2.0"
     },
     "engines": {
         "node": "10.* || >= 12"
